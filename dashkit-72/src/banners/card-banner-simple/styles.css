@@ -1,0 +1,51 @@
+.card-banner-simple {
+  color: inherit;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+}
+.avatar-group {
+  display: inline-flex;
+}
+
+.avatar-xs {
+ width: 1.625rem !important;
+  height: 1.625rem !important;
+  font-size: .54167rem !important;
+}
+.avatar {
+  position: relative;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1rem;
+}
+.avatar-lg {
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.33333rem;
+}
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.rounded-circle {
+  border-radius: 50%!important;
+}.avatar:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-image: url(/documents/53760/59649/avatar-group.svg/4d1d0294-8c80-c10a-68af-4f27a49e9466?t=1598382823472),url(../img/masks/avatar-group.svg),url(../img/masks/avatar-group-hover.svg),url(../img/masks/avatar-group-hover-last.svg);
+}
+avatar-xs {
+  width: 1.625rem;
+  height: 1.625rem;
+  font-size: .54167rem;
+}
+.clip {
+   clip: rect(0, 100px, 200px, 0);
+}
