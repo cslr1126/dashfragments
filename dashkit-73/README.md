@@ -1,7 +1,7 @@
 # Dashkit 7.3 Fragments
 
 This project is a collection of Page Fragments that are organized into different 
-categories, like Dashboard, Banner, etc.
+categories, like Dashboard, Banner, etc.  Here is a link to the official [Liferay documentation] (https://github.com/liferay/generator-liferay-fragments)
 
 ###### Collections
 Fragments are always grouped inside collections. To create a collection, run add-colllection
