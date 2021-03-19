@@ -1,0 +1,49 @@
+
+.text-center {
+    text-align: center!important;
+}
+.section-title h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 0;
+    line-height: 1.2;
+    color: #16213e;
+}
+.section-title .section-icon {
+    position: relative;
+    width: 310px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-title .section-icon::before {
+    content: '';
+    position: absolute;
+    left: 25px;
+    width: 100px;
+    height: 2px;
+    background-color: #1fa2ff;
+}
+.section-title .section-icon .icon {
+    -webkit-transform: rotate(
+225deg
+);
+    transform: rotate(
+225deg
+);
+    font-size: 40px;
+    color: #1fa2ff;
+    line-height: 1;
+}
+.login::before {
+    content: "\f007";
+}
+.section-title .section-icon::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    width: 100px;
+    height: 2px;
+    background-color: #1fa2ff;
+}

@@ -1,0 +1,5 @@
+.card-body {
+    padding: 30px 30px;
+    flex: 1 1 auto;
+    position: relative;
+}

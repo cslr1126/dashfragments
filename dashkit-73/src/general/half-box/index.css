@@ -1,0 +1,64 @@
+.fifty_fifty {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fifty_fifty .media_col {
+    background: #000;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.fifty_fifty .text_col {
+    padding: 9rem 8rem 15rem;
+}
+.fifty_fifty .media_col img, .fifty_fifty .media_col png {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.fifty_fifty .title {
+    margin-bottom: 1.8rem;
+    font-size: 3.4rem;
+    line-height: 3.4rem;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 100%;
+    font-weight: 700;
+}
+@media screen and (min-width: 1024px){
+.fifty_fifty .title {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    margin-bottom: 3.5rem;
+	}}
+@media screen and (min-width: 768px){
+.fifty_fifty .half_col {
+    width: 50%;
+}
+}
+@media screen and (min-width: 768px){
+.fifty_fifty .half_col {
+    width: 50%;
+}
+}
+
+@media screen and (min-width: 768px){
+.fifty_fifty {
+    flex-direction: row-reverse;
+}
+}
+
+@media screen and (min-width: 768px){
+.fifty_fifty .media_col img, .fifty_fifty .media_col png {
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+	}}

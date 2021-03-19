@@ -1,0 +1,54 @@
+.service-center {
+    text-align: center;
+    padding: 30px 25px;
+    margin-bottom: 20px;
+}
+.service-box {
+    position: relative;
+    padding: 35px 41px 18px 38px;
+    background: #FFF;
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+}
+.icon-2 {
+    font-size: 2em;
+}
+.service-center.shadow {
+    border-top: 4px solid #EB740F;
+}
+.service-center .icon {
+    position: static;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 25px;
+    height: 40px;
+}
+.service-center .service-title {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.service-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0 15px;
+}
+
+.service-box a.read-more {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 500;
+		text-transform: uppercase;
+		color: #EB740F;
+		font-weight: bold;
+		text-decoration: none;
+}
+.service-desc {
+	min-height: 150px;
+}
+.service-title a {
+    color: #313131;
+}

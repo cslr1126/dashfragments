@@ -1,0 +1,24 @@
+.dropdown-ellipses {
+    font-size: 1.0625rem;
+    color: #d2ddec;
+}
+.dropdown-toggle {
+    white-space: nowrap;
+}
+.fe {
+    line-height: inherit;
+}
+.fe {
+    font-family: 'Feather' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fe-more-vertical:before {
+    content: "\e99c";
+}
