@@ -3,15 +3,19 @@
 This project is a collection of Page Fragments that are organized into different 
 categories, like Dashboard, Banner, etc.
 
-Fragments are always grouped inside collections. To create a collection, run
-
+###### Collections
+Fragments are always grouped inside collections. To create a collection, run add-colllection
+```
 yarn run add-collection
-
-Once a collection has been created, you can add as many fragments as desired inside by running
-
+```
+###### Add Fragments
+Once a collection has been created, you can add as many fragments as needed using the add-fragment command
+```
 yarn run add-fragment
-
+```
+###### Deploy
 When you are ready to import your Fragments run the compress command, which will create a file call
 liferay-fragments.zip in the build folder.  Import the .zip into your Liferay instance.
-
+```
 yarn run compress
+```
