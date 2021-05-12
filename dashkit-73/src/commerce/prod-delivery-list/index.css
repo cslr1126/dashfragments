@@ -1,0 +1,186 @@
+.mt-n6, .my-n6 {
+    margin-top: -4.5rem!important;
+}
+
+.dash-card {
+    margin-bottom: 1.5rem;
+    border-color: #edf2f9;
+    box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
+}
+.dash-card {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #edf2f9;
+    border-radius: .5rem;
+    padding-bottom: 1.4rem;
+}
+.card-header {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 60px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.card-header {
+    padding: 1rem 1.5rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #edf2f9;
+}
+.card-header {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 60px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.card-header:first-child {
+    border-radius: calc(.5rem - 1px) calc(.5rem - 1px) 0 0;
+}
+.card-header>:first-child {
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+.card-header-title {
+    margin-bottom: 0;
+}
+.btn-white {
+    color: #283e59;
+    background-color: #fff;
+    border-color: #fff;
+}
+.btn-white {
+    border-color: #e3ebf6;
+}
+.btn-sm {
+    padding: .125rem .5rem;
+    font-size: .8125rem;
+    line-height: 1.75;
+    border-radius: .25rem;
+}
+.table-responsive {
+    display: block;
+    width: 96%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.card-table {
+    margin-bottom: 0;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    color: #12263f;
+}
+.table {
+    border-collapse: collapse;
+}
+.table-sm {
+    font-size: .8125rem;
+}
+.table tbody td, .table tbody th, .table thead th {
+    vertical-align: middle;
+}
+.table-nowrap td, .table-nowrap th {
+    white-space: nowrap;
+}
+.table-sm td, .table-sm th {
+    padding: 1rem;
+}
+.table td, .table th {
+    padding: 1rem;
+    vertical-align: top;
+    border-top: 1px solid #edf2f9;
+}
+.badge-soft-warning {
+    color: #f6c343;
+    background-color: #fdf3d9;
+}
+.badge-soft-success {
+    color: #00d97e;
+    background-color: #ccf7e5;
+}
+.badge-soft-danger {
+    color: #e63757;
+    background-color: #fad7dd;
+}
+.badge {
+    vertical-align: middle;
+}
+.badge {
+    display: inline-block;
+    padding: .33em .5em;
+    font-size: 75%;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .375rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.avatar-xs {
+    height:2rem;
+	  width:2rem;
+    font-size: .54167rem;
+}
+.avatar {
+    position: relative;
+    display: inline-block;
+  
+}
+.avatar:not(:last-child){
+  -webkit-mask-image:unset !important;
+}
+.avatar-group {
+    display: inline-flex;
+}
+.avatar-group .avatar-xs+.avatar-xs {
+    margin-left: -.40625rem;
+}
+
+.avatar:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-image: 
+			url(/documents/49002/53873/avatar-status.svg/a7fbadb1-2e5b-c929-f246-704090bf8014?t=1588282789381),
+			url(/documents/49002/53873/avatar-group.svg/46d21b8f-7d71-76c6-0c06-06a56557901f?t=1588282789278),
+			url(/documents/49002/53873/avatar-group-hover.svg/a6b2f19f-8e9c-9198-bfc9-24e4f01fcab1?t=1588282789463),
+			url(/documents/49002/53873/avatar-group-hover-last.svg/b0413dcd-4219-1c20-decd-8281c5dcb099?t=1588282789558);
+}
+.table td img{
+	height:2rem;
+	width:2rem;
+}

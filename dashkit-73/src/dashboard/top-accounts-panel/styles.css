@@ -1,0 +1,13 @@
+.account-card {
+	margin-bottom:4px  !important;
+}
+.account-card-body{
+	padding:  10px 20px 10px 25px !important;
+}
+.avatar-lg img{
+	width:60px;
+}
+.card-header-title{
+	text-transform:initial;
+	font-weight:400;
+}

@@ -1,0 +1,99 @@
+.card-body {
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.5rem;
+}
+.card-header:first-child {
+    border-radius: calc(.5rem - 1px) calc(.5rem - 1px) 0 0;
+}
+.card-header {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 60px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.card-header {
+    padding: 1rem 1.5rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #edf2f9;
+}
+.card-header>:first-child {
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.card-header-title {
+    margin-bottom: 0;
+}
+.avatar-title {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    line-height: 0;
+    background-color: #b1c2d9;
+    color: #fff;
+}
+.font-size-lg {
+    font-size: 1.0625rem!important;
+}
+.bg-primary-soft {
+    background-color: #e6effc!important;
+}
+.text-primary {
+    color: #2c7be5!important;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.avatar-sm {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: .83333rem;
+}
+.avatar {
+    position: relative;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1rem;
+}
+.list-group-activity .list-group-item:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    top: 1rem;
+    left: 1.25rem;
+    height: 100%;
+    border-left: 1px solid #e3ebf6;
+}
+.list-group-activity .list-group-item {
+    border: 0;
+}
+.list-group-flush>.list-group-item {
+    padding-left: 0;
+    padding-right: 0;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 1rem 1.25rem;
+    background-color: transparent;
+    border: 1px solid #e3ebf6;
+}
+.mb-1, .my-1 {
+    margin-bottom: .1875rem!important;
+    letter-spacing: -.02em;
+    font-size: .8125rem;
+    color: #000;
+}
