@@ -3,6 +3,10 @@
 This project is a collection of Page Fragments that are organized into different 
 categories, like Dashboard, Banner, etc.  Here is a link to the official [Liferay documentation](https://github.com/liferay/generator-liferay-fragments)
 
+###### Updates
+Updated fragments that can be used with Minium including:
+ - Top Accounts List     - Delivery Timeline Panel
+
 ###### Collections
 Fragments are always grouped inside collections. To create a collection, run add-colllection
 ```
